@@ -198,6 +198,25 @@ In the upcoming videos, whenever an image or video is downloaded from the
 internet, the written instructions will use `wget` instead to retrieve those
 files.
 
+### Testing our Website Using `httpserver`
+
+While we build our website and add content, we need to be actively checking to see what the
+actual site looks like. In the Learn IDE, we can use a tool that is already
+built in, `httpserver`.
+
+* Make sure you are in your main `exceptional-realty` folder.
+* In your terminal, type `httpserver` and press enter.
+* You will see a message `Your server is running at ...`, following by a string
+  of numbers, periods and a colon. Copy that string, open a new tab, and paste.
+* At this point, you will see a blank page because we don't have anything in
+  our index.html file. However, you can check to see if the files are being
+  served by adding the following to the end of the pasted numbers: `/images/intro-pic.jpg`
+* If all is well, the image we retrieved using `wget` and placed in our
+  `images` folder should appear.
+
+We will use `httpserver` throughout these lessons in place of opening files via
+Finder, the method mentioned in the videos.
+
 ### Wrapping Up
 
 We now have a remote repository set up with a good foundation of necessary
