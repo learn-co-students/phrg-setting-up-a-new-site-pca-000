@@ -220,8 +220,8 @@ setting up tracking between your local and remote `main-pages` branches.
 
 Always make sure to push up any new work before continuing to the next lesson.
 This way, at the beginning of your next lesson, you can clone down a copy of
-your remote repository and start working from where you left off, and push up
-those new changes when you're done!
+your remote repository using `git clone https://github.com/<your_username_here>/exceptional-realty`,
+start working from where you last left off, and push up those new changes when you're done!
 
 <iframe width="640" height="480" src="//www.youtube.com/embed/i61lTJ6OpDE?rel=0&modestbranding=1" frameborder="0" allowfullscreen></iframe>
 
