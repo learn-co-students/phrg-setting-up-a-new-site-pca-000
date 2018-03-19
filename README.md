@@ -213,6 +213,7 @@ built in, `httpserver`.
   served by adding the following to the end of the pasted numbers: `/images/intro-pic.jpg`
 * If all is well, the image we retrieved using `wget` and placed in our
   `images` folder should appear.
+* To stop `httpserver`, make sure your terminal is in focus and press `Control`+ `C`.
 
 We will use `httpserver` throughout these lessons in place of opening files via
 Finder, the method mentioned in the videos.
