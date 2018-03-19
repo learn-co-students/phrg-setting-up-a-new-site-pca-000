@@ -4,6 +4,7 @@
 
 1. Set up initial GitHub repository for upcoming labs
 2. Review branching, committing and pushing to GitHub
+3. Create some basic files and folders for your repository
 
 ## Introduction
 
