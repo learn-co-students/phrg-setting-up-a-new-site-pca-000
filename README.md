@@ -10,7 +10,7 @@
 
 In the upcoming labs, we will be working through the creation of a full
 website, introducing various HTML concepts and components while applying them
-to our site. As each lesson builds off of the work completed in the last, in
+to our site. Each lesson builds off of the work completed in the last, so in
 this lesson, we will be going through the process of setting up your own GitHub
 repository to code along in. In addition to this, in the event that you get
 stuck or your personal repository isn't working as intended, each lesson will
@@ -21,18 +21,13 @@ and steps that have changed, especially if you are using the in-browser Learn
 IDE. For this reason, the Readme content of these lessons will differ slightly
 from video instructions, and will include up-to-date steps for navigating the
 Learn IDE and completing these lessons entirely within your browser Learn
-environment. You do not need specific applications such as Sublime or iTerm.
+environment (instead of Sublime, the text editor used in the video). You do not
+need specific applications such as Sublime or iTerm.
 
 While using the in-browser Learn IDE, if you leave the page or refresh, _any
-work done will be lost unless it is pushed up to a remote repository_, which we
+work completed will be lost unless it is pushed up to a remote repository_, which we
 will be discussing in this lesson. Make sure, though, to **always open a new
-browser tab or window when navigating to a different page on the internet**.
-
-## Instructions
-
-If you run into any issues while following along, or are unable to set up your
-own repository, remember that you will still be able to use the files provided
-in each of the following lessons to code along.
+browser tab or window when navigating away from Learn**.
 
 ### Setting Up Your GitHub Repository
 
@@ -119,9 +114,9 @@ git push -u origin master
   using our local repository's `master` branch. The `-u` is necessary for the
   first time we do this, as it also tells git to set up tracking between our
   local and remote `master` branches. You may need to enter your GitHub
-  credentials in the terminal to complete this step. If successful, your terminal
-  will display that it is counting and writing objects to your remote repository,
-  and that `Branch master set up to track remote branch master from origin.`
+  credentials in the terminal to complete this step. If successful, your
+  terminal will display that it is counting and writing objects to your remote
+  repository, and that `Branch master set up to track remote branch master from origin.`
 * Head back github.com and refresh the _'Quick setup'_ page. Your pushed up
   files should appear.
 * At any point going forward, if you accidentally navigate away from these
@@ -131,19 +126,21 @@ git push -u origin master
 `git clone https://github.com/<your_username_here>/exceptional-realty`
 
 This will download a copy to your Learn IDE based on whatever you last
-committed and pushed up to GitHub. Always remember to push up any work you want
-to keep and access again!
+committed and pushed up to GitHub. Always push up any work you want
+to keep and access again! If you run into any issues while following along, or
+are unable to set up your own repository, remember that you will still be able
+to use the files provided in each of the following lessons to code along.
 
 ### Adding Branches
 
 * From inside your repository folder in the Learn IDE, type `git branch`. This
-  command will show you all the existing branches that are stored locally on your
-  computer, and currently, we only have one, `master`. As a general best
+  command will show you all the existing branches that are stored locally on
+  your computer, and currently, we only have one, `master`. As a general best
   practice, the `master` branch should always be kept in a fully functional
   state; any new features or additions made on a repo should be done on a
-  separate branch, allowing one or more developers to work on isolated parts of a
-  project without interfering with the `master` version until the branch code is
-  fully ready.
+  separate branch, allowing one or more developers to work on isolated parts of
+  a project without interfering with the `master` version until the branch code
+  is fully ready.
 * We're going to create a new branch and add some files to this repository. To
   do this, type:
 
@@ -178,10 +175,10 @@ touch real-estate-listings.html
   directory using `mkdir` or your `Create New` button, and name it `images`.
 * Let's go ahead and add an image to this folder. You may be used to
   downloading images off the internet by simply navigating to that image, right
-  clicking, and saving the file. We're going to employ a special terminal command
-  that will work regardless of your environment setup, `wget`. First, though, we
-  need an image. Since we're building a real estate website, let's use the
-  following image, found at <a href="http://ironboard-curriculum-content.s3.amazonaws.com/front-end/lab-assets/intro-pic.jpg" target="_blank">http://ironboard-curriculum-content.s3.amazonaws.com/front-end/lab-assets/intro-pic.jpg</a>:
+  clicking, and saving the file. We're going to employ a special terminal
+  command that will work regardless of your environment setup, `wget`. First,
+  though, we need an image. Since we're building a real estate website, let's
+  use the following image, found at <a href="http://ironboard-curriculum-content.s3.amazonaws.com/front-end/lab-assets/intro-pic.jpg" target="_blank">http://ironboard-curriculum-content.s3.amazonaws.com/front-end/lab-assets/intro-pic.jpg</a>:
 
 ![Intro Pic](http://ironboard-curriculum-content.s3.amazonaws.com/front-end/lab-assets/intro-pic.jpg "Intro Pic")
 
