@@ -25,9 +25,9 @@ environment (instead of Sublime, the text editor used in the video). You do not
 need specific applications such as Sublime or iTerm.
 
 While using the in-browser Learn IDE, if you leave the page or refresh, _any
-work completed will be lost unless it is pushed up to a remote repository_, which we
-will be discussing in this lesson. Make sure, though, to **always open a new
-browser tab or window when navigating away from Learn**.
+work completed will be lost unless it is pushed up to a remote repository_,
+which we will be discussing in this lesson. Make sure, though, to **always open
+a new browser tab or window when navigating away from Learn**.
 
 ### Setting Up Your GitHub Repository
 
@@ -35,24 +35,25 @@ Let's start by creating some initial folders and files before creating a remote
 git repository online.
 
 * We will be creating a website for a fake real estate company called
-  'Exceptional Realty.' Before anything else, we need a place to do our work in.
-  In your Learn terminal, create a project folder by typing `mkdir exceptional-realty`.
-  Then, to navigate into that folder, type `cd exceptional-realty`.
-* We'll be connecting this folder to a remote GitHub repository, so we'll need
-  to create some basic files first. From inside your project folder, type
-  `touch README.md` to create an empty README file. The file should appear in the
-  folder tree beside the text-editor in the Learn IDE, within the `exceptional-realty`
-  folder.
+  'Exceptional Realty Group.' Before anything else, we need a place to put our
+  work in. In your Learn terminal, create a project folder by typing
+  `mkdir exceptional-realty`. Then, to navigate into that folder,
+  type `cd exceptional-realty`.
+* Let's create some basic files. From inside your project folder, type
+  `touch README.md` to create an empty README file. The file will appear in
+  the folder tree beside the text editor in the Learn IDE, within the
+  `exceptional-realty` folder.
 * We can add some content to this file by clicking the file to open it. Let's
-  add a title, 'Exceptional Realty Group website' and on a new line, we'll add a
-  description: 'This is an example site for the Intro to Front-End Web
+  add a title, 'Exceptional Realty Group Website' and on a new line, we'll add
+  a description: 'This is an example site for the Intro to Front-End Web
   Development course at the Flatiron School'.
 * We should also create a `.gitignore` file, which is _essential_ in preventing
-  private and/or sensitive files from being shared publicly when your repository
-  is published online. First, type `touch .gitignore` to create the file. For
-  now, we can use a list of common `.gitignore` configurations to populate this
-  file, provided via GitHub. Navigate to <a href="https://gist.github.com/octocat/9257657" target="_blank">https://gist.github.com/octocat/9257657</a>, copy the contents
-  of the `.gitignore` file provided there, and paste them into your newly created
+  private and/or sensitive files from being shared publicly when your
+  repository is online. First, type `touch .gitignore` to create the
+  file. For now, we can use a list of common `.gitignore` configurations to
+  populate this file, provided via GitHub. Navigate to <a href="https://gist.github.com/octocat/9257657" target="_blank">https://gist.github.com/octocat/9257657</a>, copy the
+  contents of the `.gitignore` file provided there, and paste them into your
+  newly created
   file.
 
 Now that we've got some files in our project, let's initialize a new git
@@ -63,20 +64,20 @@ repository locally, then create a remote repo and connect them.
   where your git file has been created:
 
   ```
-  Initialized empty Git repository in /home/.../.git/
+  Initialized empty Git repository in /home/.../exceptional-realty/.git/
   ```
 
 * We now have a local git repository. If you type `git status` in your
-  terminal, you should see the files we just created listed as 'Untracked files'.
-  Since these files are untracked, any changes made to them won't be recognized
-  by our git repository.
+  terminal, you should see the files we just created listed as
+  'Untracked files'. Since these files are untracked, any changes made to them
+  won't be recognized by our git repository yet.
 * To track the files we've created and changed, type `git add .`. Then, we want
   to record, a.k.a 'commit', these changes to our git repo by typing
-  `git commit -m 'first commit'`. The `-m` is short for `--message=`, which we'll
-  use to state what we're doing during this particular commit.
+  `git commit -m 'first commit'`. The `-m` is short for `--message=`, which
+  we'll use to state what we're doing during this particular commit.
 * If you type `git status` now, you'll see that our files are no longer listed,
-  and that there is 'nothing to commit, the working directory is clean', meaning
-  there are no new changes since the last commit.
+  and that there is 'nothing to commit, the working directory is clean',
+  meaning there are no new changes since the last commit.
 
 We've got our local work ready to go, so now we need to set up a new remote
 repository to store this in.
@@ -85,18 +86,18 @@ repository to store this in.
   and make sure you are signed in.
 * In the upper right-hand corner of the page, click the **`+`** button and
   choose **_New repository_**
-* You'll be brought to the _'Create a new repository'_ page. We can go ahead
+* You'll be brought to the **_Create a new repository_** page. We can go ahead
   and name this repository the same name we gave our folder, so in the
-  _'Repository name'_ field, enter 'exceptional-realty'. Then, let's add a brief
-  description of what this repository is for in the _'Description'_ field.
+  _Repository name_ field, enter 'exceptional-realty'. Then, we'll add a brief
+  description of what this repository is for in the _Description_ field.
 * We can leave this repository set to _Public_. We also already have a
-  README.md file, so we do not need to initialize this repository with one. Click
-  _'Create repository'_ to continue.
-* GitHub provides commands in the _'Quick setup'_ page for starting from
+  README.md file, so we do not need to initialize this repository with one.
+  Click **_Create repository_** to continue.
+* GitHub provides commands in the **_Quick setup_** page for starting from
   scratch, pushing an existing local repository, or importing code from another
-  repository. In our case, we need the commands for pushing an existing
-  repository. The url provided will be unique to your GitHub username and repo,
-  so copy the first command:
+  repository. In our case, we need the commands for 'pushing an existing
+  repository.' The url provided will be unique to your GitHub username and repo,
+  so copy the first command that looks something like:
 
 `git remote add origin https://github.com/<your_username_here>/exceptional-realty.git...`
 
@@ -127,9 +128,10 @@ git push -u origin master
 
 This will download a copy to your Learn IDE based on whatever you last
 committed and pushed up to GitHub. Always push up any work you want
-to keep and access again! If you run into any issues while following along, or
-are unable to set up your own repository, remember that you will still be able
-to use the files provided in each of the following lessons to code along.
+to keep and access again! If you run into any issues while following along in
+these lessons, or are unable to set up your own repository, remember that you
+will still be able to use a demonstration repository in each of the following
+lessons to code along.
 
 ### Adding Branches
 
@@ -151,14 +153,15 @@ git checkout -b main-pages
 Your terminal should now display that you are on a new branch, `(main-pages)`,
 instead of `(master)`.
 
-* Let's create some additional web pages for out website. You can do this by
+* Let's create some additional web pages for our website. You can do this by
   choosing to click the `Create New` button in your Learn IDE and choosing
-  `File`, or by using your terminal and the command `touch`, followed by the name
-  of the file. Go ahead and create our first file, `index.html`, all lowercase,
-  which will be our homepage on the website. Now let's create the rest of our web
-  pages:
+  `File`, or by using your terminal and the command `touch`, followed by the
+  name of the file. Go ahead and create our first file, `index.html`, all
+  lowercase, which will be our homepage on the website. Now let's create the
+  rest of our web pages:
 
 ```
+touch index.html
 touch contact.html
 touch market-report.html
 touch new-properties.html
@@ -166,8 +169,8 @@ touch real-estate-listings.html
 ```
 
 * Naming these files based on what they will contain will keep us better
-  organized, and can also help when it comes to Search Engine Optimization, as
-  search engine bots use file names find relevant search information.
+  organized, and can also help when it comes to search engine optimization, as
+  search engine bots use file names to find relevant search information.
 
 ### Retrieving Files Using the `wget` Command
 
@@ -189,7 +192,7 @@ touch real-estate-listings.html
 
 * The file `intro-pic.jpg` should appear in your images folder. You may not be
   able to view this image in the Learn IDE, but that is fine; we can still use it
-  in our site just fine.
+  in our site.
 
 In the upcoming videos, whenever an image or video is downloaded from the
 internet, the written instructions will use `wget` instead to retrieve those
@@ -199,18 +202,19 @@ files.
 
 While we build our website and add content, we need to be actively checking to see what the
 actual site looks like. In the Learn IDE, we can use a tool that is already
-built in, `httpserver`.
+built in, `httpserver`!
 
-* Make sure you are in your main `exceptional-realty` folder.
-* In your terminal, type `httpserver` and press enter.
+* Navigate out of the `images` folder using `cd ..`, so you are in your main
+  `exceptional-realty` folder.
+* In your terminal, type `httpserver` and press `return`.
 * You will see a message `Your server is running at ...`, following by a string
-  of numbers, periods and a colon. Copy that string, open a new tab, and paste.
+  of numbers, with periods and a colon. Copy that string, open a new tab, and paste.
 * At this point, you will see a blank page because we don't have anything in
   our index.html file. However, you can check to see if the files are being
   served by adding the following to the end of the pasted numbers: `/images/intro-pic.jpg`
 * If all is well, the image we retrieved using `wget` and placed in our
   `images` folder should appear.
-* To stop `httpserver`, make sure your terminal is in focus and press `Control`+ `C`.
+* To stop `httpserver`, make sure your terminal is in focus and press `Control` + `C`.
 
 We will use `httpserver` throughout these lessons in place of opening files via
 Finder, the method mentioned in the videos.
@@ -233,12 +237,26 @@ git push -u origin main-pages
 
 This adds any changes you've made, creates a commit record of them, and tells
 git to push the `main-pages` branch to your `origin`, the remote repository,
-setting up tracking between your local and remote `main-pages` branches.
+setting up tracking between your local and remote `main-pages` branches. If
+you check out your repository on GitHub, you'll see that you now have **2**
+branches, `master`, and `main-pages`.
 
 Always make sure to push up any new work before continuing to the next lesson.
 This way, at the beginning of your next lesson, you can clone down a copy of
-your remote repository using `git clone https://github.com/<your_username_here>/exceptional-realty`,
-start working from where you last left off, and push up those new changes when you're done!
+your remote repository, switch over to the `main-pages` branch and continue
+working. The following instructions will be in each lesson, but
+for reference, here are the steps:
+
+```
+git clone https://github.com/<your_username_here>/exceptional-realty
+cd exceptional-realty
+git fetch main-pages
+git checkout main-pages
+```
+
+The `git fetch main-pages` is necessary, as just cloning down a repository will
+only pull the `master` branch to your local computer. We use `fetch` to
+retrieve a particular branch, then `checkout` to switch over to it.
 
 <iframe width="640" height="480" src="//www.youtube.com/embed/i61lTJ6OpDE?rel=0&modestbranding=1" frameborder="0" allowfullscreen></iframe>
 
