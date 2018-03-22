@@ -102,8 +102,9 @@ repository to store this in.
 `git remote add origin https://github.com/<your_username_here>/exceptional-realty.git...`
 
 * Back in the Learn terminal, paste in the copied command and press `enter`. If
-  you have any trouble, make sure you've set up an GitHub account SSH key to your
-  local computer. Checkout this link for more info on setting up your SSH: <a href="https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/" target="_blank">Adding a New SSH Key to Your GitHub Account</a>.
+  you have any trouble, make sure you've set up an GitHub account SSH key to
+  your local computer. Checkout this link for more info on setting up your
+  SSH: <a href="https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/" target="_blank">Adding a New SSH Key to Your GitHub Account</a>.
 * To push up your local work to this new remote repository, we'll use the
   second command GitHub provides:
 
@@ -250,13 +251,13 @@ for reference, here are the steps:
 ```
 git clone https://github.com/<your_username_here>/exceptional-realty
 cd exceptional-realty
-git fetch main-pages
+git fetch --all
 git checkout main-pages
 ```
 
 The `git fetch main-pages` is necessary, as just cloning down a repository will
-only pull the `master` branch to your local computer. We use `fetch` to
-retrieve a particular branch, then `checkout` to switch over to it.
+only pull the `master` branch to your local computer. We use `fetch --all` to
+retrieve all remote branches, then `checkout` to switch over to one.
 
 <iframe width="640" height="480" src="//www.youtube.com/embed/i61lTJ6OpDE?rel=0&modestbranding=1" frameborder="0" allowfullscreen></iframe>
 
