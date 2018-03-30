@@ -255,7 +255,7 @@ git fetch --all
 git checkout main-pages
 ```
 
-The `git fetch main-pages` is necessary, as just cloning down a repository will
+The `git fetch --all` is necessary, as just cloning down a repository will
 only pull the `master` branch to your local computer. We use `fetch --all` to
 retrieve all remote branches, then `checkout` to switch over to one.
 
