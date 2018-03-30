@@ -13,8 +13,8 @@ website, introducing various HTML concepts and components while applying them
 to our site. Each lesson builds off of the work completed in the last, so in
 this lesson, we will be going through the process of setting up your own GitHub
 repository to code along in. In addition to this, in the event that you get
-stuck or your personal repository isn't working as intended, each lesson will
-contain some basic code that you can use to code along with.
+stuck or your personal repository isn't working as intended, you will have
+access to a repository with starter code to follow along with from each lesson.
 
 **NOTE**: Videos are provided in these lessons, but contain some instructions
 and steps that have changed, especially if you are using the in-browser Learn
@@ -24,7 +24,7 @@ Learn IDE and completing these lessons entirely within your browser Learn
 environment (instead of Sublime, the text editor used in the video). You do not
 need specific applications such as Sublime or iTerm.
 
-While using the in-browser Learn IDE, if you leave the page or refresh, _any
+While using the in-browser Sandbox, if you leave the page or refresh, _any
 work completed will be lost unless it is pushed up to a remote repository_,
 which we will be discussing in this lesson. Make sure, though, to **always open
 a new browser tab or window when navigating away from Learn**.
@@ -36,7 +36,7 @@ git repository online.
 
 * We will be creating a website for a fake real estate company called
   'Exceptional Realty Group.' Before anything else, we need a place to put our
-  work in. In your Learn terminal, create a project folder by typing
+  work. In your Learn terminal, create a project folder by typing
   `mkdir exceptional-realty`. Then, to navigate into that folder,
   type `cd exceptional-realty`.
 * Let's create some basic files. From inside your project folder, type
@@ -101,7 +101,7 @@ repository to store this in.
 
 `git remote add origin https://github.com/<your_username_here>/exceptional-realty.git...`
 
-* Back in the Learn terminal, paste in the copied command and press `enter`. If
+* Back in the Learn terminal, paste in the copied command and press return. If
   you have any trouble, make sure you've set up an GitHub account SSH key to
   your local computer. Checkout this link for more info on setting up your
   SSH: <a href="https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/" target="_blank">Adding a New SSH Key to Your GitHub Account</a>.
@@ -158,7 +158,7 @@ instead of `(master)`.
   choosing to click the `Create New` button in your Learn IDE and choosing
   `File`, or by using your terminal and the command `touch`, followed by the
   name of the file. Go ahead and create our first file, `index.html`, all
-  lowercase, which will be our homepage on the website. Now let's create the
+  lowercase, which will be our homepage on the website. Now, let's create the
   rest of our web pages:
 
 ```
@@ -171,7 +171,7 @@ touch real-estate-listings.html
 
 * Naming these files based on what they will contain will keep us better
   organized, and can also help when it comes to search engine optimization, as
-  search engine bots use file names to find relevant search information.
+  search engine bots can use file names to find relevant search information.
 
 ### Retrieving Files Using the `wget` Command
 
@@ -182,7 +182,7 @@ touch real-estate-listings.html
   clicking, and saving the file. We're going to employ a special terminal
   command that will work regardless of your environment setup, `wget`. First,
   though, we need an image. Since we're building a real estate website, let's
-  use the following image, found at <a href="http://ironboard-curriculum-content.s3.amazonaws.com/front-end/lab-assets/intro-pic.jpg" target="_blank">http://ironboard-curriculum-content.s3.amazonaws.com/front-end/lab-assets/intro-pic.jpg</a>:
+  use the image found at <a href="http://ironboard-curriculum-content.s3.amazonaws.com/front-end/lab-assets/intro-pic.jpg" target="_blank">http://ironboard-curriculum-content.s3.amazonaws.com/front-end/lab-assets/intro-pic.jpg</a>:
 
 ![Intro Pic](http://ironboard-curriculum-content.s3.amazonaws.com/front-end/lab-assets/intro-pic.jpg "Intro Pic")
 
