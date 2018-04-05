@@ -1,6 +1,6 @@
 # Setting up a New Site
 
-**Note: If you are using the Learn IDE, you do not need iTerm or Sublime. Please run all commands and perform all actions in the IDE terminal and text editor. To add images, right click on the directoy you'd like to add them to (in the tree) and select 'Import'.**
+**Note: If you are using the Learn IDE, you do not need iTerm or Sublime. Please run all commands and perform all actions in the IDE terminal and text editor. To add images, right click on the directory you'd like to add them to (in the tree) and select 'Import'.**
 
 <iframe width="640" height="480" src="//www.youtube.com/embed/i61lTJ6OpDE?rel=0&modestbranding=1" frameborder="0" allowfullscreen></iframe>
 
