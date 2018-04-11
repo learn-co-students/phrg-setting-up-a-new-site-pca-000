@@ -175,12 +175,12 @@ touch real-estate-listings.html
 
 ### Retrieving Files Using the `wget` Command
 
-* We also will need a separate folder for storing some image files. Create a
+* We will need a separate folder for storing some image files. Create a
   directory using `mkdir` or your `Create New` button, and name it `images`.
 * Let's go ahead and add an image to this folder. You may be used to
   downloading images off the internet by simply navigating to that image, right
   clicking, and saving the file. We're going to employ a special terminal
-  command that will work regardless of your environment setup, `wget`. First,
+  command that will work with the in-browser IDE, `wget`. First,
   though, we need an image. Since we're building a real estate website, let's
   use the image found at <a href="http://ironboard-curriculum-content.s3.amazonaws.com/front-end/lab-assets/intro-pic.jpg" target="_blank">http://ironboard-curriculum-content.s3.amazonaws.com/front-end/lab-assets/intro-pic.jpg</a>:
 
