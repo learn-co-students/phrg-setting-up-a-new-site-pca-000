@@ -259,6 +259,7 @@ The `git fetch --all` is necessary, as just cloning down a repository will
 only pull the `master` branch to your local computer. We use `fetch --all` to
 retrieve all remote branches, then `checkout` to switch over to one.
 
+
 <iframe width="640" height="480" src="//www.youtube.com/embed/i61lTJ6OpDE?rel=0&modestbranding=1" frameborder="0" allowfullscreen></iframe>
 
 [Alternate video link.](https://www.youtube.com/watch?v=i61lTJ6OpDE)
