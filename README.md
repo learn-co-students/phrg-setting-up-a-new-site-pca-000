@@ -24,7 +24,7 @@ Learn IDE and completing these lessons entirely within your browser Learn
 environment (instead of Sublime, the text editor used in the video). You do not
 need specific applications such as Sublime or iTerm.
 
-While using the in-browser Sandbox, if you leave the page or refresh, _any
+While using [the in-browser Sandbox][sb], if you leave the page or refresh, _any
 work completed will be lost unless it is pushed up to a remote repository_,
 which we will be discussing in this lesson. Make sure, though, to **always open
 a new browser tab or window when navigating away from Learn**.
@@ -268,3 +268,5 @@ retrieve all remote branches, then `checkout` to switch over to one.
 [Here is a direct link to the gitignore code referenced in the video.](https://gist.githubusercontent.com/octocat/9257657/raw/3f9569e65df83a7b328b39a091f0ce9c6efc6429/.gitignore)
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/setting-up-a-new-site' title='Setting up a New Site'>Setting up a New Site</a> on Learn.co and start learning to code for free.</p>
+
+[sb]: http://help.learn.co/ide-in-browser/ide-in-browser-sandbox
