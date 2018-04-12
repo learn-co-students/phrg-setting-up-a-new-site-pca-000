@@ -1,0 +1,142 @@
+{
+              title: "16 Setup a New Site - YouTube",
+           host_url: "https://www.youtube.com/watch?v=i61lTJ6OpDE",
+          presenter: "Jonathan Grover",
+             length: "12:48",
+     slides_summary: [
+        {
+             start_offset: "00:00",
+               end_offset: "00:16",
+                  bullets: [
+                "in this first code along exercise we're",
+                "going to get started making a website from scratch",
+                "follow along with me",
+                "feel free to go at your own pace, rewind, fast foward, etc.."
+            ]
+        },
+        {
+             start_offset: "00:16",
+               end_offset: "01:19",
+                  bullets: [
+                "create new local folder for this project wherever you would like",
+                "we're going to be creating a kind of like a fake real estate company website called Exceptional Realty"
+
+            ]
+        },
+        {
+             start_offset: "01:19",
+               end_offset: "02:01",
+                  bullets: [
+                "we're going to use a git repository to share this code",
+                "create a README.md file",
+                "create a .gitignore file to keep some files hidden",
+                "open files in text-editor"
+            ]
+        },
+        {
+             start_offset: "02:01",
+               end_offset: "03:17",
+                  bullets: [
+                "Open up the README file",
+                "add a title, Exceptional Realty Group Website",
+                "add a description 'this is an example site for the",
+                "intro to front-end web development course at the Flatiron school",
+                "save this file.  This will serve as a basic readme for other developers"
+            ]
+        },
+        {
+             start_offset: "03:17",
+               end_offset: "04:25",
+                  bullets: [
+                "open .gitignore",
+                "go to help.github.com/articles/ignoring-files",
+                "copy provided list of common files to ignore (https://gist.github.com/octocat/9257657)",
+                "paste into our .gitignore"
+            ]
+        },
+        {
+             start_offset: "04:25",
+               end_offset: "05:13",
+                  bullets: [
+                "create a new git repository using git init",
+                "type git status to see untracked files",
+                "the ignore and the readme here are unstaged",
+                "use git add . to add unstaged files",
+                "use git commit and leave a message",
+                "git commit -m 'first commit'"
+            ]
+        },
+        {
+             start_offset: "05:13",
+               end_offset: "06:56",
+                  bullets: [
+                "head over to github.com",
+                "sign in your github profile and you'll",
+                "click create a new repository",
+                "name this the exact same name, exceptional-realty",
+                "the description I'll steal that from the readme file here",
+                "click create, then copy 'git remote add' command",
+                "we can borrow this command down here",
+                "paste into terminal to connect the remote repo to your local files"
+                "type 'git remote' to see the new remote, 'origin'"
+            ]
+        },
+        {
+             start_offset: "06:56",
+               end_offset: "07:24",
+                  bullets: [
+                "push up code to git, git push -u origin master",
+                "add this little -u to set up tracking between our master branch on the local"
+            ]
+        },
+        {
+             start_offset: "07:24",
+               end_offset: "08:04",
+                  bullets: [
+                "start creating branches because to start building features",
+                "git checkout -b main-pages"
+            ]
+        },
+        {
+             start_offset: "08:04",
+               end_offset: "09:00",
+                  bullets: [
+                "'git branch' to see all local branches",
+                "create a couple different HTML files",
+                "index.html will be our homepage",
+                "we can really name html files them whatever we want but this",
+                "particular HTML page we have to name index for it to show up"
+            ]
+        },
+        {
+             start_offset: "09:00",
+               end_offset: "10:11",
+                  bullets: [
+                "create contact.html, market-report.html, new-properties.html, real-estate-listings.html
+                "I've named these HTML pages with terms that are going to be important to search engines",
+                "name your HTML pages with terms that",
+                "describe the actual content on that page"
+            ]
+        },
+        {
+             start_offset: "10:11",
+               end_offset: "10:28",
+                  bullets: [
+                "make a folder '/images",
+                "mkdir images to create an images folder there"
+            ]
+        },
+        {
+             start_offset: "10:28",
+               end_offset: "12:48",
+                  bullets: [
+                "download image using provided link",
+                "copy that image where it exists to the `/images` folder using cd & cp commands",
+                "cd ~/downloads",
+                "ls here to see file which is called 'intro-pic.jpg'",
+                "cp intro-pic.jpg ~/dev/exceptional-realty intro-pic.jpg",
+                "check to see pic does in fact exist in project folder"
+            ]
+        }
+    ]
+}
