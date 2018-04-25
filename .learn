@@ -5,3 +5,5 @@ tags:
 languages:
   - HTML
 resources: 1
+
+parent_template: git@github.com:learn-co-curriculum/setting-up-a-new-site.git

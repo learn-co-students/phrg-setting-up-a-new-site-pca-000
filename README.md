@@ -268,6 +268,4 @@ retrieve all remote branches, then `checkout` to switch over to one.
 
 [Here is a direct link to the gitignore code referenced in the video.](https://gist.githubusercontent.com/octocat/9257657/raw/3f9569e65df83a7b328b39a091f0ce9c6efc6429/.gitignore)
 
-<p data-visibility='hidden'>View <a href='https://learn.co/lessons/setting-up-a-new-site' title='Setting up a New Site'>Setting up a New Site</a> on Learn.co and start learning to code for free.</p>
-
-[sb]: http://help.learn.co/ide-in-browser/ide-in-browser-sandbox
+<p data-visibility='hidden'>PHRG Setting up a New Site</p>
