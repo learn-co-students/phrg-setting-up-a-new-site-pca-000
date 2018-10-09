@@ -269,3 +269,6 @@ retrieve all remote branches, then `checkout` to switch over to one.
 [Here is a direct link to the gitignore code referenced in the video.](https://gist.githubusercontent.com/octocat/9257657/raw/3f9569e65df83a7b328b39a091f0ce9c6efc6429/.gitignore)
 
 <p data-visibility='hidden'>PHRG Setting up a New Site</p>
+
+## Does this need an update?
+ Please open a [GitHub issue](https://github.com/learn-co-curriculum/phrg-setting-up-a-new-site/issues) or [pull-request](https://github.com/learn-co-curriculum/phrg-setting-up-a-new-site/pulls). Provide a detailed description that explains the issue you have found or the change you are proposing. Then "@" mention your instructor on the issue or pull-request, and send them a link via Connect.
